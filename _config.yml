@@ -1,9 +1,2 @@
-title: Home
-baseurl: ""
 url: "https://alanisamaharani.github.io/"
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-theme: null
