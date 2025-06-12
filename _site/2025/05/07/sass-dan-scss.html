@@ -1,0 +1,262 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Materi SASS dan SCSS</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/images/favicon.ico">
+
+  <!-- JavaScript -->
+  <script src="/assets/js/scripts.js"></script>
+
+  <!-- Plugins -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Materi SASS dan SCSS | Home</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Materi SASS dan SCSS" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Materi: SASS dan SCSS" />
+<meta property="og:description" content="Materi: SASS dan SCSS" />
+<link rel="canonical" href="http://localhost:4000/2025/05/07/sass-dan-scss.html" />
+<meta property="og:url" content="http://localhost:4000/2025/05/07/sass-dan-scss.html" />
+<meta property="og:site_name" content="Home" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-05-07T00:00:00+07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Materi SASS dan SCSS" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-07T00:00:00+07:00","datePublished":"2025-05-07T00:00:00+07:00","description":"Materi: SASS dan SCSS","headline":"Materi SASS dan SCSS","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/05/07/sass-dan-scss.html"},"url":"http://localhost:4000/2025/05/07/sass-dan-scss.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/assets/image/alsa.jpeg" alt="Profile Picture" class="profile-Picture">
+      <h1>Al Anisa Maharani</h1>
+      <p></p>
+    </header>
+
+    <nav>
+      <ul>
+  
+    <li>
+      <a href="/"
+         >
+        Home
+      </a>
+    </li>
+  
+    <li>
+      <a href="/friends.html"
+         >
+        Friends
+      </a>
+    </li>
+  
+    <li>
+      <a href="/blog.html"
+         >
+        Blog
+      </a>
+    </li>
+  
+</ul>
+    </nav>
+
+    <main>
+      <h1>Materi SASS dan SCSS</h1>
+<p>07 May 2025 </p>
+
+<h1 id="materi-sass-dan-scss">Materi: SASS dan SCSS</h1>
+
+<h2 id="1-pendahuluan">1. Pendahuluan</h2>
+
+<p><em>SASS (Syntactically Awesome Stylesheets)</em> adalah sebuah CSS preprocessor yang memungkinkan kita menulis CSS dengan sintaks yang lebih kuat, efisien, dan terstruktur. Dengan menggunakan SASS, kita bisa menambahkan fitur seperti:</p>
+
+<ul>
+  <li><em>Variabel</em></li>
+  <li><em>Nesting</em> (penulisan kode bersarang)</li>
+  <li><em>Partials</em> dan <em>import</em></li>
+  <li><em>Mixins</em></li>
+  <li><em>Inheritance</em></li>
+  <li><em>Fungsi custom</em></li>
+</ul>
+
+<p>SASS membantu memecah file CSS menjadi bagian-bagian kecil dan reusable. Hal ini sangat berguna dalam pengembangan front-end skala besar.</p>
+
+<hr />
+
+<h2 id="2-perbedaan-antara-sass-dan-scss">2. Perbedaan antara SASS dan SCSS</h2>
+
+<p>SASS memiliki dua gaya sintaks: <em>SASS (indented syntax)</em> dan <em>SCSS (Sassy CSS)</em>. Keduanya memiliki fungsi yang sama tetapi cara penulisannya berbeda.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fitur</th>
+      <th>SASS</th>
+      <th>SCSS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ekstensi File</td>
+      <td>.sass</td>
+      <td>.scss</td>
+    </tr>
+    <tr>
+      <td>Gaya Penulisan</td>
+      <td>Tanpa {} dan ;</td>
+      <td>Menggunakan {} dan ;</td>
+    </tr>
+    <tr>
+      <td>Mirip dengan</td>
+      <td>Python atau YAML</td>
+      <td>CSS standar</td>
+    </tr>
+    <tr>
+      <td>Ketersediaan</td>
+      <td>Kurang umum</td>
+      <td>Lebih umum digunakan</td>
+    </tr>
+    <tr>
+      <td>Kompatibilitas</td>
+      <td>Tidak langsung kompatibel CSS</td>
+      <td>Kompatibel penuh dengan CSS</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="3-contoh-penulisan-kode">3. Contoh Penulisan Kode</h2>
+
+<h3 id="contoh-sass">Contoh SASS:</h3>
+<p>sass
+$primary-color: #333</p>
+
+<p>body
+  font: 100% Helvetica, sans-serif
+  color: $primary-color</p>
+
+<h3 id="contoh-scss">Contoh SCSS:</h3>
+<p>scss
+$primary-color: #333;</p>
+
+<p>body {
+  font: 100% Helvetica, sans-serif;
+  color: $primary-color;
+}</p>
+
+<hr />
+
+<h2 id="4-fitur-unggulan">4. Fitur Unggulan</h2>
+
+<h3 id="variabel">Variabel</h3>
+<p>Menyimpan nilai warna, ukuran font, atau padding agar dapat digunakan berulang.</p>
+
+<p>scss
+$main-color: #0d6efd;
+$spacing: 16px;</p>
+
+<p>button {
+  background-color: $main-color;
+  padding: $spacing;
+}</p>
+
+<h3 id="nesting">Nesting</h3>
+<p>Menulis CSS yang merefleksikan struktur HTML secara hierarki.</p>
+
+<p>scss
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
+}</p>
+
+<h3 id="partials-dan-import">Partials dan Import</h3>
+<p>Memecah file SCSS menjadi bagian kecil dan di-import ke file utama.</p>
+
+<p>scss
+// _variables.scss
+$base-color: #000;</p>
+
+<p>// main.scss
+@import ‘variables’;</p>
+
+<h3 id="mixins">Mixins</h3>
+<p>Fungsi untuk menulis blok CSS yang bisa digunakan kembali.</p>
+
+<p>scss
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}</p>
+
+<p>.box { @include border-radius(10px); }</p>
+
+<h3 id="inheritance-extend">Inheritance (Extend)</h3>
+<p>Menghindari pengulangan deklarasi CSS.</p>
+
+<p>scss
+%message {
+  padding: 10px;
+  border: 1px solid #ccc;
+}</p>
+
+<p>.success {
+  @extend %message;
+  border-color: green;
+}</p>
+
+<hr />
+
+<h2 id="5-alur-kerja-dengan-sassscss">5. Alur Kerja dengan SASS/SCSS</h2>
+
+<ol>
+  <li>
+    <p>Instalasi SASS:
+bash
+npm install -g sass</p>
+  </li>
+  <li>
+    <p>Kompilasi SCSS ke CSS:
+bash
+sass style.scss style.css</p>
+  </li>
+  <li>
+    <p>Gunakan file CSS hasil kompilasi di dalam HTML.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="6-kesimpulan">6. Kesimpulan</h2>
+
+<p>SASS/SCSS memberikan banyak kemudahan dalam pengembangan CSS, terutama untuk proyek besar dengan banyak elemen gaya.<br />
+Keuntungan menggunakan SASS/SCSS antara lain:</p>
+
+<ul>
+  <li>Penulisan kode yang lebih modular dan reusable.</li>
+  <li>Meminimalisir pengulangan.</li>
+  <li>Meningkatkan keterbacaan dan maintainability.</li>
+  <li>Kompatibel dengan CSS, terutama SCSS.</li>
+</ul>
+
+ 
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Home. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

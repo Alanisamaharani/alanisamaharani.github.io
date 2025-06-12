@@ -1,0 +1,154 @@
+---
+layout : post
+title : "Bootstrap"
+---
+
+
+Penjelasan tentang Bootstrap
+
+## Panduan Lengkap tentang Bootstrap
+
+## 1. Pengertian Bootstrap
+
+Bootstrap adalah *framework CSS open-source* yang digunakan untuk mempermudah proses pengembangan antarmuka web (frontend). Bootstrap menyediakan kumpulan *komponen siap pakai* (seperti tombol, form, tabel, navbar) serta *sistem grid* yang memudahkan dalam membuat desain web yang responsif.
+
+---
+
+## 2. Kelebihan Bootstrap
+
+*Cepat dan Mudah Digunakan*
+*Responsif* (otomatis menyesuaikan ukuran layar)
+*Banyak Komponen* (navbar, tombol, form, dll)
+*Customizable* (bisa diubah sesuai kebutuhan)
+*Dokumentasi Lengkap*
+
+---
+
+## 3. Cara Menggunakan Bootstrap
+
+### a. Menggunakan CDN (Cara Paling Mudah)
+
+Tambahkan link CSS Bootstrap ke dalam <head> HTML:
+
+html
+<link 
+  rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+Tambahkan script JavaScript Bootstrap di sebelum tag </body> (opsional):
+
+html
+<script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+---
+
+### b. Menggunakan File Lokal
+
+1. Download file Bootstrap dari [getbootstrap.com](https://getbootstrap.com).
+2. Ekstrak file CSS dan JS.
+3. Tambahkan di HTML:
+
+html
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+---
+
+## 4. Struktur Dasar HTML dengan Bootstrap
+
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Bootstrap</title>
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Halo, Bootstrap!</h1>
+    <button class="btn btn-primary">Klik Saya</button>
+  </div>
+
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
+
+
+---
+
+## 5. Komponen-Komponen Populer Bootstrap
+
+### a. Tombol
+
+html
+<button class="btn btn-success">Sukses</button>
+<button class="btn btn-danger">Hapus</button>
+
+
+### b. Grid System
+
+html
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">Kolom 1</div>
+    <div class="col-md-6">Kolom 2</div>
+  </div>
+</div>
+
+
+### c. Navbar
+
+html
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tentang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+---
+
+## 6. Customisasi
+
+Untuk menyesuaikan tampilan Bootstrap sesuai kebutuhan, kita bisa menggunakan:
+
+* *CSS tambahan*: Buat file CSS sendiri dan timpa (override) style Bootstrap.
+* *Sass Variables*: Bootstrap mendukung Sass untuk kustomisasi lebih dalam.
+
+---
+
+## 7. Kesimpulan
+
+🔹 Bootstrap adalah framework CSS yang memudahkan pembuatan tampilan web modern dan responsif.
+🔹 Cocok untuk pemula maupun profesional.
+🔹 Mendukung komponen siap pakai dan sistem grid yang memudahkan tata letak.
