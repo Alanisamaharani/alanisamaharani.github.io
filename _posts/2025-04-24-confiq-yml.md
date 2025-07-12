@@ -5,7 +5,7 @@ title: "config yml"
 
 # 📘 Panduan Lengkap: config.yml
 
-##  Keterangan Dasar
+##  Keterangan Dasar.
 
 File config.yml biasanya digunakan dalam berbagai proyek untuk menyimpan pengaturan dan konfigurasi. Contoh proyek yang menggunakan file ini termasuk:
 

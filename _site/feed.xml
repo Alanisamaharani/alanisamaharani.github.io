@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-12T16:25:22+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home</title><entry><title type="html">Materi SASS dan SCSS</title><link href="http://localhost:4000/2025/05/07/sass-dan-scss.html" rel="alternate" type="text/html" title="Materi SASS dan SCSS" /><published>2025-05-07T00:00:00+07:00</published><updated>2025-05-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/07/sass-dan-scss</id><content type="html" xml:base="http://localhost:4000/2025/05/07/sass-dan-scss.html"><![CDATA[<h1 id="materi-sass-dan-scss">Materi: SASS dan SCSS</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-12T13:51:11+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home</title><entry><title type="html">Materi SASS dan SCSS</title><link href="http://localhost:4000/2025/05/07/sass-dan-scss.html" rel="alternate" type="text/html" title="Materi SASS dan SCSS" /><published>2025-05-07T00:00:00+07:00</published><updated>2025-05-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/07/sass-dan-scss</id><content type="html" xml:base="http://localhost:4000/2025/05/07/sass-dan-scss.html"><![CDATA[<h1 id="materi-sass-dan-scss">Materi: SASS dan SCSS</h1>
 
 <h2 id="1-pendahuluan">1. Pendahuluan</h2>
 
@@ -281,7 +281,7 @@ plugins:</p>
 
 <p>Memanfaatkan plugin seperti jekyll-sitemap, jekyll-feed, dan jekyll-seo-tag adalah cara efektif untuk menjadikan blog Jekyll kamu lebih optimal, baik untuk mesin pencari maupun pengunjung. Hanya dengan konfigurasi sederhana, kamu sudah bisa menikmati fitur-fitur canggih yang membuat blog tampak lebih profesional.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[🔌 Penjelasan tentang Plugins dalam Jekyll]]></summary></entry><entry><title type="html">config yml</title><link href="http://localhost:4000/2025/04/24/confiq-yml.html" rel="alternate" type="text/html" title="config yml" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/confiq-yml</id><content type="html" xml:base="http://localhost:4000/2025/04/24/confiq-yml.html"><![CDATA[<h1 id="-panduan-lengkap-configyml">📘 Panduan Lengkap: config.yml</h1>
 
-<h2 id="keterangan-dasar">Keterangan Dasar</h2>
+<h2 id="keterangan-dasar">Keterangan Dasar.</h2>
 
 <p>File config.yml biasanya digunakan dalam berbagai proyek untuk menyimpan pengaturan dan konfigurasi. Contoh proyek yang menggunakan file ini termasuk:</p>
 
@@ -471,7 +471,7 @@ theme: minima</p>
 </main></body></html>
   </li>
 </ol>
-<p>06 Mar 2025 </p>
+<p>06 Mar 2025 - </p>
 
 <p>Materi tentang Markdown dan HTML</p>
 
@@ -528,7 +528,6 @@ theme: minima</p>
   <li><strong>Ringan dan mudah dipelajari</strong>: Cukup dengan simbol dasar seperti <code class="language-plaintext highlighter-rouge">#</code> untuk heading dan <code class="language-plaintext highlighter-rouge">-</code> untuk list.</li>
   <li><strong>Berguna untuk blog</strong>: Markdown memudahkan pembuatan artikel yang dapat langsung diproses menjadi HTML.</li>
 </ul>
-
 <p>&lt;/main&gt;</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   &lt;footer&gt;
